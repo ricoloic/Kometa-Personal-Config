@@ -25,29 +25,6 @@ templates:
       - <<use_<<opt2>>>>
 
 collections:
-  4K-DV:
-    template:
-      - name: Resolution
-        weight: 120
-        opt1: 4k
-        opt2: dv
-    plex_search:
-      all:
-        resolution.regex: '(?i)2160|4k'
-    filters:
-      has_dolby_vision: true
-
-  4K-HDR:
-    template:
-      - name: Resolution
-        weight: 110
-        opt1: 4k
-        opt2: hdr
-    plex_search:
-      all:
-        resolution.regex: '(?i)2160|4k'
-        hdr: true
-
   4K:
     template:
       - name: Resolution
@@ -56,29 +33,6 @@ collections:
     plex_search:
       any:
         resolution.regex: '(?i)2160|4k'
-
-  1080P-DV:
-    template:
-      - name: Resolution
-        weight: 90
-        opt1: 1080p
-        opt2: dv
-    plex_search:
-      all:
-        resolution.regex: '(?i)1080|2k'
-    filters:
-      has_dolby_vision: true
-
-  1080P-HDR:
-    template:
-      - name: Resolution
-        weight: 80
-        opt1: 1080p
-        opt2: hdr
-    plex_search:
-      all:
-        resolution.regex: '(?i)1080|2k'
-        hdr: true
 
   1080P:
     template:
@@ -89,29 +43,6 @@ collections:
       any:
         resolution.regex: '(?i)1080|2k'
 
-  720P-DV:
-    template:
-      - name: Resolution
-        weight: 60
-        opt1: 720p
-        opt2: dv
-    plex_search:
-      all:
-        resolution.regex: '(?i)720|hd'
-    filters:
-      has_dolby_vision: true
-
-  720P-HDR:
-    template:
-      - name: Resolution
-        weight: 50
-        opt1: 720p
-        opt2: hdr
-    plex_search:
-      all:
-        resolution.regex: '(?i)720|hd'
-        hdr: true
-
   720P:
     template:
       - name: Resolution
@@ -121,29 +52,6 @@ collections:
       any:
         resolution.regex: '(?i)720|hd'
 
-  480P-DV:
-    template:
-      - name: Resolution
-        weight: 30
-        opt1: 480p
-        opt2: dv
-    plex_search:
-      all:
-        resolution.regex: '(?i)480|sd'
-    filters:
-      has_dolby_vision: true
-
-  480P-HDR:
-    template:
-      - name: Resolution
-        weight: 20
-        opt1: 480p
-        opt2: hdr
-    plex_search:
-      all:
-        resolution.regex: '(?i)480|sd'
-        hdr: true
-
   480P:
     template:
       - name: Resolution
@@ -152,21 +60,3 @@ collections:
     plex_search:
       any:
         resolution.regex: '(?i)480|sd'
-
-  DV:
-    template:
-      - name: Resolution
-        weight: 5
-        opt1: dv
-    plex_all: true
-    filters:
-      has_dolby_vision: true
-
-  HDR:
-    template:
-      - name: Resolution
-        weight: 1
-        opt1: hdr
-    plex_search:
-      all:
-        hdr: true
