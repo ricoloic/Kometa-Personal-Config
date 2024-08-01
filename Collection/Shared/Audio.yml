@@ -33,7 +33,7 @@ dynamic_collections:
       dynamic:
         default: true
       url_poster:
-        default: https://example.com/<<key>>
+        default: https://raw.githubusercontent.com/ricoloic/Kometa-Personal-Config/master/Assets/Shared/Audio/Poster/<<key>>.png
     include:
       - ab     # Abkhazian
       - aa     # Afar
