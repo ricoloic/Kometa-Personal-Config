@@ -14,7 +14,6 @@ dynamic_collections:
   Audio Language:
     type: audio_language
     title_format: <<key_name>> Audio
-    sort_title: z_<<key_name>>_Audio
     other_name: Other Audio
     template:
       - smart_filter
