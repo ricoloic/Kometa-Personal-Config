@@ -1,6 +1,6 @@
 templates:
   Genre:
-    file_poster: config/Assets/Movie/Genre/Poster/<<collection_name>>.png
+    url_poster: https://raw.githubusercontent.com/ricoloic/Kometa-Personal-Config/master/Assets/Movie/Genre/Poster/<<collection_name>>.png
     summary: <<summary>>
     default:
       exclude: Children, Anime
@@ -12,7 +12,7 @@ templates:
         genre.not: <<exclude>>
         genre: <<genre>>
   Genre IMDB:
-    file_poster: config/Assets/Movie/Genre/Poster/<<collection_name>>.png
+    url_poster: https://raw.githubusercontent.com/ricoloic/Kometa-Personal-Config/master/Assets/Movie/Genre/Poster/<<collection_name>>.png
     summary: <<summary>>
     sync_mode: append
     smart_label: release.desc

@@ -3,7 +3,7 @@ templates:
     collection_order: custom
     sync_mode: sync
     sort_title: ++_<<collection_name>>
-    file_poster: config/Assets/Show/Chart/Poster/<<collection_name>>.png
+    url_poster: https://raw.githubusercontent.com/ricoloic/Kometa-Personal-Config/master/Assets/Show/Chart/Poster/<<collection_name>>.png
 
 collections:
   Top Rated:

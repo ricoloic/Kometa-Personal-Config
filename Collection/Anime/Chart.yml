@@ -4,21 +4,21 @@ templates:
     collection_order: custom
     sync_mode: sync
     sort_title: +++_Chart_<<collection_name>>
-    file_poster: config/Assets/Anime/Chart/Poster/<<collection_name>>.png
+    url_poster: https://raw.githubusercontent.com/ricoloic/Kometa-Personal-Config/master/Assets/Anime/Chart/Poster/<<collection_name>>.png
     summary: <<summary>>
   AniList Popular Anime:
     anilist_popular: 100
     collection_order: custom
     sync_mode: sync
     sort_title: +++_Chart_<<collection_name>>
-    file_poster: config/Assets/Anime/Chart/Poster/<<collection_name>>.png
+    url_poster: https://raw.githubusercontent.com/ricoloic/Kometa-Personal-Config/master/Assets/Anime/Chart/Poster/<<collection_name>>.png
     summary: <<summary>>
   AniList Trending Anime:
     anilist_trending: 100
     collection_order: custom
     sync_mode: sync
     sort_title: +++_Chart_<<collection_name>>
-    file_poster: config/Assets/Anime/Chart/Poster/<<collection_name>>.png
+    url_poster: https://raw.githubusercontent.com/ricoloic/Kometa-Personal-Config/master/Assets/Anime/Chart/Poster/<<collection_name>>.png
     summary: <<summary>>
 
 collections:

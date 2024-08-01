@@ -6,7 +6,7 @@ templates:
     collection_mode: hide
     sync_mode: sync
     sort_title: aaa_Genre_<<collection_name>>
-    file_poster: config/Assets/Anime/Genre/Poster/<<collection_name>>.png
+    url_poster: https://raw.githubusercontent.com/ricoloic/Kometa-Personal-Config/master/Assets/Anime/Genre/Poster/<<collection_name>>.png
     summary: <<summary>>
 
 collections:

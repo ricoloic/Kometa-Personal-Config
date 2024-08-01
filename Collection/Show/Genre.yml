@@ -1,6 +1,6 @@
 templates:
   Genre:
-    file_poster: config/Assets/Show/Genre/Poster/<<collection_name>>.png
+    url_poster: https://raw.githubusercontent.com/ricoloic/Kometa-Personal-Config/master/Assets/Show/Genre/Poster/<<collection_name>>.png
     summary: <<summary>>
     default:
       exclude: Children, Anime

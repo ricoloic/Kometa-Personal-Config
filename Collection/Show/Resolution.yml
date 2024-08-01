@@ -8,7 +8,7 @@ templates:
     allowed_library_types:
       - <<use_<<opt1>>>>
       - <<use_<<opt2>>>>
-    file_poster: config/Assets/Show/Resolution/Poster/<<collection_name>>.png
+    url_poster: https://raw.githubusercontent.com/ricoloic/Kometa-Personal-Config/master/Assets/Show/Resolution/Poster/<<collection_name>>.png
   NoResolution:
     optional:
       - overlay_level
